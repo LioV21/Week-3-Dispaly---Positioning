@@ -1,48 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Rakkas|Sanchez&display=swap');
 
 /*
-	Fonts used:
-	font-family: 'Rakkas', cursive;
-	font-family: 'Sanchez', serif;
+    Fonts used:
+    font-family: 'Rakkas', cursive;
+    font-family: 'Sanchez', serif;
 */
 
 body {
-	font-size: 16px;
-	font-family: 'Sanchez', serif;
+    font-size: 16px;
+    font-family: 'Sanchez', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;  
 }
 
 h1, h2, h3 {
-	font-family: 'Rakkas', cursive;
+    font-family: 'Rakkas', cursive;
+    color: black;
 }
 
-aside {
-	
+aside { 
+    padding-left: 16px; 
 }
 
 footer {
-
+    padding: 16px;
+	clear: both;
+	text-align: left;
 }
 
 header {
-
+    padding-left: 32%;
+    margin-bottom: 16px; 
 }
 
 img {
-	max-width: 75%;
+    max-width: 75%; 
+    border: 1px solid white; 
+    display: block;
+    margin: 15px 0; 
 }
 
 main {
-
+    font-size: medium;
+    overflow: auto;
 }
 
 nav {
-
+    padding-left: 50%;
 }
 
 #copyright {
-	font-size: 80%;
+    font-size: 80%; 
+    color: black; 
+    display: block;
+    padding-left: 200px; 
 }
 
 #main-container {
-
+    display: grid;
+    grid-template-columns: 250px auto 250px; 
+    gap: 20px; 
+    padding: 0 5%; 
+    max-width: 1200px;
+    margin: auto;
 }
